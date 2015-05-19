@@ -7,4 +7,4 @@ deploy:
     secure: 3b4f0039-b1e3-44b9-a121-b99c833df347
   app: serene-lake-1919
   on:
-    repo: danielfs/node-app
+    repo: Leandro94/node-app
