@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "0.12"
+deploy:
+  provider: heroku
+  api_key:
+    secure: 3f08c62d-780f-415c-a217-a9df0406332a
+  app: dry-beyond-1892
+  on:
+    repo: Leandro94/node-app
