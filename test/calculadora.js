@@ -10,7 +10,7 @@ describe('Calculadora', function() {
 				var resultado = controller.utils.calculos.somar(numero1, numero2);
 				
 				resultado.should.be.a.Number;
-				resultado.should.be.equal(5);
+				resultado.should.be.equal(6);
 			});
 			
 			it('Deveria retornar -3 quando for passado 1 e -4.', function() {
